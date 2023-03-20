@@ -4,18 +4,19 @@
 
 #include <stdio.h>
 
-/* more headers goes there */
+/* betty style doc for function goes here */
 /**
-* main - prints if n is negative, positive or zero
-* Return: 0
-*/
+ * main - main function
+ * Return: always successful
+ */
 int main(void)
+
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	
 	if (n > 0)
 	{
 	printf("%d is positive\n", n);
